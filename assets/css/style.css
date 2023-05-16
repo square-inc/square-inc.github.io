@@ -3831,6 +3831,13 @@ input[type=color] {
   animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
   z-index: 999;
 }
+
+@media only screen and (max-width: 768px) {
+  .header-bottom__area-2.header-sticky  {
+    padding-top: 20px;
+  }
+}
+
 .header-bottom__area-2.header-sticky .tp-btn-white {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   
@@ -3991,6 +3998,13 @@ input[type=color] {
   right: 0;
   padding-top: 40px;
 }
+
+@media only screen and (max-width: 768px){
+  .header-bottom__transparent {
+    padding-top: 0px;
+  }
+}
+
 .header-bottom__plr-4 {
   padding: 0px 315px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
