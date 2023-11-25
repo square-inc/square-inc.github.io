@@ -17487,3 +17487,12 @@ Product Style
     padding-top: 20px;
   }
 }
+
+.image-with-padding {
+  padding: 10px; /* You can adjust the value according to your preference */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: "100%";
+  height: "28753px";
+}
