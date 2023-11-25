@@ -1,9 +1,6 @@
-
-<!DOCTYPE html>
-<html>
-  <body>
-        <div>
-            <iframe id="pdf-js-viewer" src="/web/viewer.html?file=%2assets%2pdf%2Fportfolio_s.pdf" title="webviewer" frameborder="0" width="500" height="600"></iframe>
-        </div>
-  </body>
-</html>
+<iframe id="theFrame" src="assets/pdf/portfolio_s.pdf" style="height:1000px; width:100%;"></iframe>
+<script>
+document.getElementById("theFrame").contentWindow.onload = function() {
+    this.document.getElementsByTagName("img")[0].style.width="100%";
+};
+</script>
